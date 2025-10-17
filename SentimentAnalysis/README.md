@@ -1,6 +1,6 @@
 ---
 
-#  Sentiment Analysis on Amazon Reviews using Machine Learning
+# ⭐ Sentiment Analysis on Amazon Reviews using Machine Learning
 
 A machine learning project that classifies Amazon product reviews into **positive**, **negative**, or **neutral** sentiments using classical ML algorithms and feature extraction techniques.
 This project identifies the best-performing model for sentiment classification by evaluating multiple algorithms with different text vectorization methods.
@@ -39,7 +39,7 @@ This analysis provides valuable insights into customer opinions, helping e-comme
 
 ---
 
-##  Dataset
+## 📂 Dataset
 
 The dataset was sourced from **[Kaggle](https://www.kaggle.com/)** under the search term *“Amazon Reviews.”*
 Due to licensing restrictions, the dataset is **not included** in this repository.
@@ -105,16 +105,16 @@ data/amazon_reviews.csv
 | Algorithm             | Accuracy | Precision (Positive) | Recall (Positive) | F1-Score (Positive) |
 | --------------------- | -------- | -------------------- | ----------------- | ------------------- |
 | Random Forest (Tuned) | 90%      | 0.90                 | 1.0               | 0.95                |
-|  **Nu-SVM (Best)**  | **94%**  | **0.94**             | **0.99**          | **0.97**            |
+|  **🏆Nu-SVM (Best)**  | **94%**  | **0.94**             | **0.99**          | **0.97**            |
 
 >  **Conclusion:** Both **Random Forest** and **SVM** performed equally well with 93% accuracy on both vectorizers, but after fine-tuning, **Nu-SVM** achieved the **highest accuracy of 94%**, making it the most effective model overall.
 
 ---
 
-##  Publication
+## 📚 Publication
 
 This project was **officially published** at the
- *3rd World Conference on Information Systems for Business Management (ISBM)* — **Springer LNNS Series (2024)**
+ *🎓3rd World Conference on Information Systems for Business Management (ISBM)* — **Springer LNNS Series (2024)**
 
  **Read the Published Paper:**
 [🔗 Sentiment Analysis on Amazon Reviews Using Machine Learning Techniques – ResearchGate](https://www.researchgate.net/publication/392245615_Sentiment_Analysis_on_Amazon_Reviews_Using_Machine_Learning_Techniques)
@@ -140,15 +140,16 @@ This project was **officially published** at the
 
 ##  Contributors
 
- **Neelakantamatam Shreya**
- **Indukuri Varsha**
- **Gottumukkala Kavya**
+ **👩‍💻 Indukuri Varsha
+ 👩‍💻 Neelakantamatam Shreya
+👩‍💻 Gottumukkala Kavya**
+ 
 
 ---
 
 ##  Contact
 
- **LinkedIn:** [linkedin.com/in/neelakantamatam-shreya](https://linkedin.com/in/neelakantamatam-shreya)
+ **LinkedIn: https://www.linkedin.com/in/varsha-indukuri-99904b254/** 
 
 ---
 
