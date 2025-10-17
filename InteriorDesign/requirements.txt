@@ -1,0 +1,9 @@
+gradio
+torch
+transformers
+diffusers
+accelerate
+lpips
+scikit-image
+Pillow
+numpy
