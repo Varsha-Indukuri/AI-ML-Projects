@@ -1,1 +1,36 @@
+#Interior Design Generator
 
+Overview:  
+This project generates professionally furnished versions of empty room images using AI-based image generation techniques. It supports multiple room types and evaluates the quality of the generated images using SSIM and LPIPS metrics.
+
+Project Goal:  
+Transform empty room images into realistic interiors while preserving the original layout, furniture placement, and lighting.
+
+Technologies & Tools: 
+- Stable Diffusion & DreamShaper (AI image generation)  
+- ControlNet (depth-based conditioning)  
+- Gradio (interactive web interface)  
+- LPIPS & SSIM (image similarity metrics)  
+- Python libraries: `torch`, `transformers`, `diffusers`, `Pillow`, `numpy`, `scikit-image`
+
+How It Works:
+1. User uploads an empty room image.  
+2. User selects a room type (Master Bedroom, Children's Bedroom, Hall, Kitchen).  
+3. The model generates a furnished version while keeping key furniture, layout, and lighting intact.  
+4. Quality metrics (SSIM & LPIPS) are calculated to evaluate realism.
+
+Usage:
+python code/interior_design_ds.py   # Launch DreamShaper version
+python code/interior_design_sd.py   # Launch Stable Diffusion version
+
+Open the Gradio interface in your browser.
+Upload the input image and select room type.
+View the generated interior and metrics.
+
+Sample Results:
+(Check sample_images/ for input/output examples.)
+
+Future Improvements:
+Support more room types.
+Add style transfer options.
+Optimize generation speed on lower-end GPUs.
